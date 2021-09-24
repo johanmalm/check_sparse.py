@@ -1,4 +1,8 @@
 #! /usr/bin/env python3
+# SPDX-License-Identifier: GPL-2.0-only
+
+# Copied from
+# https://gitlab.com/qemu-project/qemu/-/blob/master/scripts/check_sparse.py
 
 # Invoke sparse based on the contents of compile_commands.json,
 # also working around several deficiencies in cgcc's command line
